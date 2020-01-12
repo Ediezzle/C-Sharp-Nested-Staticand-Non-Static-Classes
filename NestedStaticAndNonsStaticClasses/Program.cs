@@ -32,7 +32,7 @@ namespace NestedStaticAndNonsStaticClasses
             obj.InnerClassObject();
 
             //accessing a static method inside a static inner class nested in a non-static outer class
-            //Remember C# doesn't allow non-static methods inside a static class, whether inner our outer
+            //Remember C# doesn't allow non-static methods inside a static class, whether inner or outer
             Outer_Class.StaticInnerClass.StaticInnerClassObject();
         }
     }

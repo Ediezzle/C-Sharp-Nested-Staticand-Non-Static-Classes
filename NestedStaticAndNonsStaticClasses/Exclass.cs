@@ -8,14 +8,10 @@ namespace NestedStaticAndNonsStaticClasses
     //However static classes are sealed in C#, you can't inherit from them!
     public class Exclass : Outer_Class.Inner_Class
     {
-
         // Method of derived class 
         public void func()
         {
             Console.WriteLine("Method of derived class");
         }
-
     }
-
-
 }
